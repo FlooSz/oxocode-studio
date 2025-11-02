@@ -1,0 +1,26 @@
+{
+  "name": "super-suite-designer-tools",
+  "displayName": "Super Suite Designer Tools",
+  "description": "The ultimate suite for developers and designers.",
+  "version": "0.0.1",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./main.js",
+  "activationEvents": [
+    "onCommand:super-suite-designer-tools.showSvgPreview"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "super-suite-designer-tools.showSvgPreview",
+        "title": "Show SVG Preview"
+      }
+    ]
+  }
+}
