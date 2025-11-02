@@ -18,8 +18,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "super-suite-designer-tools.showSvgPreview",
-        "title": "Show SVG Preview"
+        "command": "super-suite-designer-tools.editSvg",
+        "title": "Edit SVG"
       }
     ]
   }
